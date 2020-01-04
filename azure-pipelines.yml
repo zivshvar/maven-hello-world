@@ -21,7 +21,8 @@ steps:
   displayName: Build an image
   inputs:
     repository: zivshvar/helloworld
-    command: 'build'
+    command: 'buildAndPush'
     Dockerfile: my-app/Dockerfile
     buildContext: my-app/target
+    containerRegistry: zivshvardockerhub
     
