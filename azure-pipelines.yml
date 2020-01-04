@@ -21,5 +21,7 @@ steps:
   displayName: Build an image
   inputs:
     repository: zivshvar/helloworld
-    command: build
+    command: 'build'
     Dockerfile: my-app/Dockerfile
+    buildContext: my-app/target
+    
