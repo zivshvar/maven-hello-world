@@ -24,4 +24,5 @@ steps:
     command: 'buildAndPush'
     Dockerfile: my-app/Dockerfile
     buildContext: my-app/target
+    containerRegistry: zivshvardockerhub
     
